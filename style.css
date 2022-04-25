@@ -1,0 +1,51 @@
+/**{
+	border: 1px solid red;
+}*/
+body{
+	background: #e9e9e9;
+	font-size: 16px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px;
+}
+
+#header{
+	background: #ECB500;
+	height: 133px;
+	text-align: center;
+}
+
+#header h1{
+	padding: 25px;
+	font-size: 2.5em;
+	margin: 0px;
+	color: #4C4C4C;
+}
+
+#header span{
+	color: #fff;
+}
+
+#header a{
+	text-decoration: none;
+	padding: 10px;
+	margin: 2px;
+	position: relative;
+	bottom: 5px;
+}
+
+#header a:visited, a:link {
+	color: #fff;
+}
+
+#header a:hover{
+	color: #ffc600;
+	background: #fff;
+}
+
+/*.postagem{
+	width: 700px;
+	padding: 20px;
+	margin: 40px;
+	background: #fff;
+	margin: auto;
+}*/
