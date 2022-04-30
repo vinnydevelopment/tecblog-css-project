@@ -1,51 +1,124 @@
-/**{
-	border: 1px solid red;
-}*/
-body{
-	background: #e9e9e9;
-	font-size: 16px;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	margin: 0px;
+* {
+	margin: 0;
+	padding: 0;
 }
 
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+-Estilizações gerais-
+*/
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img{
+	width: 620px;
+}
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+	color: #f7b600;
+}
+
+h3{
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
+
+/*
+-Layout principal-
+*/
+
 #header{
-	background: #ECB500;
-	height: 133px;
+	background: #f7b600;
+	padding: 15px;
 	text-align: center;
 }
 
-#header h1{
-	padding: 25px;
-	font-size: 2.5em;
-	margin: 0px;
-	color: #4C4C4C;
-}
-
-#header span{
-	color: #fff;
-}
-
-#header a{
-	text-decoration: none;
+h1, #nav{
 	padding: 10px;
-	margin: 2px;
-	position: relative;
-	bottom: 5px;
 }
 
-#header a:visited, a:link {
+#header a:link, #header a:visited{
 	color: #fff;
+	padding: 8px 12px;
 }
 
 #header a:hover{
-	color: #ffc600;
+	color: #f7b600;
+	background: #fff;
+	text-decoration: none;
+}
+
+
+#main{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#post-area{
+	width: 660px;
+	float: left;
+}
+
+#aside-area{
+	width: 240px;
+	float: right;
+}
+
+.post{
+	padding: 20px;
+	margin-bottom: 20px;
 	background: #fff;
 }
 
-/*.postagem{
-	width: 700px;
-	padding: 20px;
-	margin: 40px;
+
+
+#footer{
+	text-align: center;
+	padding: 15px;
+	clear: both;
+	background: #ccc;
+}
+
+.white{
+	color: #fff;
+}
+
+.post-date{
+	font-size: 0.8em;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.aside-content{
 	background: #fff;
-	margin: auto;
-}*/
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.aside-post{
+	font-size: 0.8em;
+	padding: 5px;
+}
